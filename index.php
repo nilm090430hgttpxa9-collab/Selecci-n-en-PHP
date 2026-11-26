@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <h1>Paquetes turisticos</h1>
+
+    <form action="inicio.php" method="POST">
 
         <h2>Datos del cliente</h2>
         <p>Nombre completo: <input type="text" name="nombre" required></p>
@@ -41,6 +44,7 @@
 
         <br>
         <button type="submit">Paquete</button>
+    </form>
     
 </body>
 </html>
